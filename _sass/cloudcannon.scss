@@ -1,0 +1,25 @@
+// CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/)
+
+.editor-link {
+	display: none;
+	margin-top: 0;
+
+	.btn {
+		background-color: #f7e064;
+		color: #333;
+		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 2px;
+
+		&:hover {
+			background-color: #f4d525;
+			text-decoration: none;
+			color: #333;
+		}
+	}
+
+}
+
+.cms-editor-active .editor-link {
+	display: block;
+}

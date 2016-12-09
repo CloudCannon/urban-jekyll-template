@@ -1,0 +1,3 @@
+{% for post in include.posts %}
+	<li class="blog-post">{% include post-summary.html post=post %}</li>
+{% endfor %}

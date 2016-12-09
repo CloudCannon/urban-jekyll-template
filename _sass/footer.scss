@@ -1,0 +1,75 @@
+footer {
+	@extend section;
+	padding: 100px 0 50px 0;
+	position: relative;
+	background: $html-background-color;
+	color: #fff;
+
+	&,
+	a {
+		color: #999;
+	}
+
+	h2 {
+		font-size: 1.4em;
+		margin: 30px 0;
+		color: #ccc;
+	}
+
+	.footer-columns {
+		display: flex;
+		flex-flow: wrap;
+		margin: -10px -10px 10px -10px;
+	}
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	.legal-line {
+		width: 100%;
+		padding: 30px 0 0 0;
+		margin: 0;
+
+		a {
+			font-style: italic;
+		}
+	}
+}
+
+.footer-links {
+	width: 100%;
+	margin: 10px;
+	padding: 0;
+	flex: 1 0 180px;
+
+	li {
+		list-style: none;
+		margin: 15px 0;
+
+		a {
+			svg {
+				fill: #999;
+				margin-right: 10px;
+				transition: fill 0.2s ease;
+				vertical-align: middle;
+				position: relative;
+				top: -2px;
+				width: 22px;
+				height: 22px;
+			}
+
+			&:hover {
+				text-decoration: none;
+
+				svg {
+					fill: #fff;
+				}
+			}
+		}
+	}
+}

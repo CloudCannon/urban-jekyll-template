@@ -1,0 +1,13 @@
+section.map {
+	position: relative;
+	height: 100px;
+	overflow: hidden;
+}
+
+section.map > div {
+	position: absolute;
+	top: -200px;
+	left: 0;
+	right: 0;
+	bottom: -200px;
+}

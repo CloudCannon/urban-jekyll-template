@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign blog = site.pages | where: "path", "blog/index.html" | first %}
+
+<section class="hero diagonal">
+	<div class="container">
+		{% if blog.heading %}
+		<h2><a href="{{ site.baseurl }}/blog/">{{ blog.heading }}</a> / {{ page.title | capitalize }}</h2>
+		{% endif %}
+		{% if blog.subtitle %}
+			<p class="subtext">{{ blog.subtitle }}</p>
+		{% endif %}
+	</div>
+</section>
+
+<section class="diagonal">
+	<div class="text-container">
+		<ul class="blog-posts">
+			{% include list-posts.html posts=page.posts %}
+		</ul>
+	</div>
+</section>
