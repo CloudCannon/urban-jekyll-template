@@ -1,29 +1,31 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: Lorena Dumitrașcu Photo Stories
+url: "https://lorenadumitrascu.ru"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Lorena Dumitrașcu Photo Stories.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
+  name: Lorena Dumitrașcu
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: LorenaDumitrasc # twitter username without the @ symbol
+  twitter_url: https://twitter.com/LorenaDumitrasc
+  facebook: Dumitrascu.Lorena
+  facebook_url: https://fb.com/Dumitrascu.Lorena
+  instagram: lorena_dumitrascu
+  instagram_url: https://www.instagram.com/lorena_dumitrascu/
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Lorena Dumitrașcu Photo Stories
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://twitter.com/LorenaDumitrasc
+    - https://fb.com/Dumitrascu.Lorena
+    - https://www.instagram.com/lorena_dumitrascu/
 
 collections:
-  staff_members:
-    output: false
-  clients:
+  projects:
     output: true
 
 paginate: 10
@@ -36,7 +38,6 @@ jekyll-archives:
 
 gems:
   - "jekyll-feed"
-  - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
 
@@ -48,9 +49,9 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "clients"
+      type: "projects"
     values:
-      layout: "client"
+      layout: "project"
   - scope:
       path: ""
       type: "pages"
@@ -67,11 +68,14 @@ defaults:
 
 social_icons:
   - Facebook
-  - Google Plus
   - Instagram
-  - LinkedIn
   - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+
+google_site_verification:
+yandex_verification:
+bing_verification:
+pintrest_verification:
+
+facebook:
+  page_id:
+  app_id:

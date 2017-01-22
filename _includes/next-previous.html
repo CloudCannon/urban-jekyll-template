@@ -1,0 +1,5 @@
+<h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
+{% include post-title.html post=post %}
+<div class="post-content">
+	{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}
+</div>

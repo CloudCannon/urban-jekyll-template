@@ -1,0 +1,149 @@
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+<!-- Facebook -->
+<meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
+<meta property="og:image" content="{{ page.image.location | prepend: site.url }}"  />
+<meta property="og:image:width" content="{{ page.image.width }}"  />
+<meta property="og:image:height" content="{{ page.image.height }}"  />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="fb:pages" content="{{ site.facebook.page_id }}" />
+<!-- Facebook -->
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.author.twitter }}">
+<meta name="twitter:creator" content="@{{ site.author.twitter }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="twitter:image" content="{{ page.image.location | prepend: site.url }}"  />
+<!-- Twitter -->
+
+<!-- SEO Webmasters -->
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+<meta name="yandex-verification" content="{{ site.yandex_verification }}" />
+<meta name="msvalidate.01" content="{{ site.bing_verification }}" />
+<meta name="p:domain_verify" content="{{ site.pintrest_verification }}"/>
+<!-- SEO Webmasters -->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicon/manifest.json">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#185d82">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Lorena Dumitrașcu">
+<meta name="application-name" content="Lorena Dumitrașcu">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#185d82">
+<!-- Favicons -->
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Person",
+  "name" : "{{ site.author.name }}",
+  "url" : "{{ site.url }}",
+  "jobTitle": "Software Test Engineer",
+  "email": "{{ site.email }}",
+  "homeLocation": "Timișoara, Timiș, România",
+  "sameAs" : [
+    "{{ site.author.facebook_url }}",
+    "{{ site.author.instagram_url }}",
+    "{{ site.author.twitter_url }}"
+  ],
+  "birthDate": "1987-02-23",
+  "alumniOf": {
+     "@type": "OrganizationRole",
+      "alumniOf": {
+           "@type": "CollegeOrUniversity",
+           "name": "Politehnica University of Timișoara",
+           "sameAs": "https://en.wikipedia.org/wiki/Politehnica_University_of_Timi%C8%99oara"
+      },
+      "startDate": "2011"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.author.image.location | prepend: site.url }}",
+    "height": {{ site.author.image.height }},
+    "width": {{ site.author.image.width }}
+    }
+}
+</script>
+{% if page.layout == 'post' %}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | prepend: site.url }}"
+    },
+    "publisher": {
+	    "@type": "Organization",
+	    "name": "{{ site.author.name }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.logo.location | prepend: site.url }}",
+            "width": 600,
+            "height": 60
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ page.image.location | prepend: site.url }}",
+        "height": {{ page.image.height }},
+        "width": {{ page.image.width }}
+    },
+    "headline": "{{ page.title  }}",
+    "editor": "{{ site.title }}",
+    {% if page.categories %}"keywords": "{{ page.categories | join }}",{% endif %}
+    "wordcount": "{{ page.content | number_of_words }}",
+    "url": "{{ page.url | prepend: site.url }}",
+    "datePublished": "{{ page.date }}",
+    "dateModified": "{{ page.date }}",
+    "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+    "articleBody": "{{ page.content | strip_html | strip_newlines }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}"
+    }
+}
+</script>
+
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ page.url | prepend: site.url  }}",
+  "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+   "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+   },
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.author.name }}",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo.location | prepend: site.url }}",
+        "width": 600,
+        "height": 60
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ page.image.location | prepend: site.url }}",
+        "height": {{ page.image.height }},
+        "width": {{ page.image.width }}
+    }
+}
+</script>
+{% endif %}
