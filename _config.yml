@@ -20,6 +20,8 @@ social:
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
+timezone: Etc/UTC
+
 collections:
   staff_members:
     output: false
@@ -39,7 +41,7 @@ plugins:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
-  
+
 exclude:
   - Gemfile
   - Gemfile.lock
