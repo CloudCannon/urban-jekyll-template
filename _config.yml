@@ -37,7 +37,8 @@ jekyll-archives:
     - "categories"
 
 plugins:
-  - "jekyll-feed"
+  - "jekyll-feed" # Create an Atom feed using the official Jekyll feed gem
+  - "jekyll-sitemap" # Create a sitemap using the official Jekyll sitemap gem
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
