@@ -1,11 +1,11 @@
 ---
-title: Contact
+title: Contato
 heading: Get in touch today
 subtitle: We'd love to help your business.
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  latitude: -27.597520
+  longitude: -48.549891
+  address: "Centro, Florianópolis - SC, 88010-400"
   zoom: 13
 ---
 
@@ -17,23 +17,23 @@ map:
 
 			<div class="halves">
 				<div>
-					<label for="name">First Name</label>
-					<input type="text" name="first-name" id="first-name" placeholder="John" />
+					<label for="name">Primeiro Nome</label>
+					<input type="text" name="first-name" id="first-name" placeholder="Bruna" />
 				</div>
 
 				<div>
-					<label for="name">Last Name</label>
-					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
+					<label for="name">Sobrenome</label>
+					<input type="text" name="last-name" id="last-name" placeholder="Petry" />
 				</div>
 			</div>
 
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="john@example.com" required />
+			<label for="email">Endereço de e-mail</label>
+			<input type="email" name="email" id="email" placeholder="bruna@example.com" required />
 
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
+			<label for="message">Menssagem</label>
+			<textarea name="message" id="message" placeholder="Escreva para nós..."></textarea>
 
-			<input type="submit" value="Send Message" />
+			<input type="submit" value="Enviar" />
 		</form>
 	</div>
 </section>
@@ -45,11 +45,11 @@ map:
 <section class="diagonal">
 	<div class="container halves aligned-top">
 		<div>
-			<h3>Address</h3>
+			<h3>Endereço</h3>
 				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 		</div>
 		<div>
-			<h3>Email</h3>
+			<h3>E-mail</h3>
 			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 		</div>
 	</div>
