@@ -57,3 +57,6 @@ O template já está otimizado para adicionar, atualizar e remover páginas, fun
 ## Detalhes da Companhia
 * Reutilizado em todo o site para salvar vários locais de edição.
 * Defina na seção *Data* / *Company* .
+
+## Useful links
+  (Jekyll CheatSheet)[https://learn.cloudcannon.com/jekyll-cheat-sheet/]
