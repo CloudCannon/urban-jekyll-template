@@ -1,4 +1,4 @@
-title: Anderson Bosa
+title: AndersonBosa.me
 url: "https://andersonbosa.me" # Used for Sitemap.xml and your RSS feed
 baseurl:  # If you're hosting your site at a Project repository on GitHub pages (http://yourusername.github.io/repository-name) and NOT your User repository (http://yourusername.github.io) then add in the baseurl here, like this: "/repository-name"
 google_analytics_key: # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -6,7 +6,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Manézinho Desenvolvedor Web | andersonbosa.me
 
 # Author details for the jekyll-seo-tag gem
 author:
