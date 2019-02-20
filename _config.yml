@@ -1,7 +1,7 @@
 title: Anderson Bosa
-url: "https://andersonbosa.me"
-baseurl:
-google_analytics_key:
+url: "https://andersonbosa.me" # Used for Sitemap.xml and your RSS feed
+baseurl:  # If you're hosting your site at a Project repository on GitHub pages (http://yourusername.github.io/repository-name) and NOT your User repository (http://yourusername.github.io) then add in the baseurl here, like this: "/repository-name"
+google_analytics_key: # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_maps_javascript_api_key:
 disqus_shortname:
 
@@ -10,9 +10,9 @@ description: Jekyll template with example content for a web agency.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Anderson Bosa
+  email: andersonpkf@gmail.com
+  twitter: anderson_bosa # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
@@ -99,3 +99,19 @@ social_icons:
   - Twitter
   - YouTube
   - RSS
+
+# Includes an icon in the footer for each username you enter,
+footer-links:
+  dribbble:
+  email: andersonpkf@gmail.com
+  facebook:
+  flickr:
+  github: andersonbosa/andersonbosa.me
+  instagram: andersonbosa_
+  linkedin:
+  pinterest:
+  rss: andersonpkf@gmail.com # just type anything here for a working RSS icon
+  twitter: anderson_bosa
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
