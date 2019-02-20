@@ -73,8 +73,8 @@ defaults:
     values:
       _options:
         image_path:
-          width: 600 # padrão é 600
-          height: 600
+          width: 400 # padrão é 600
+          height: 400
   - scope:
       path: ""
       type: "pages"
