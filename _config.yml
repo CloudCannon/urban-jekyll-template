@@ -16,11 +16,11 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Anderson Bosa
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://github.com/andersonbosa/andersonbosa.me
 
-timezone: Etc/UTC
+timezone: America/Sao_Paulo
 
 collections:
   staff_members:
@@ -73,7 +73,7 @@ defaults:
     values:
       _options:
         image_path:
-          width: 600
+          width: 600 # padrão é 600
           height: 600
   - scope:
       path: ""
