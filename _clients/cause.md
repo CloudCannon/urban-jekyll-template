@@ -5,20 +5,19 @@ external_url: https://github.com/CloudCannon/cause-jekyll-template
 image_path: /images/clients/cause.jpg
 ---
 
-Not for profit themed template for Jekyll. Browse through a [live demo](#TODO).
+Not for profit themed template for Jekyll. Browse through a [live demo](https://clean-oryx.cloudvent.net/).
 Increase the web presence of a not for profit or cause website with this configurable theme.
 
-CloudCannon was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+CloudCannon was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
 * Pre-built pages
 * Pre-styled components
 * Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
 * SEO tags
 * Google Analytics
 * [Donorbox](https://donorbox.org/)
@@ -32,9 +31,9 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Cause was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Cause was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install
@@ -66,7 +65,7 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 
 1. Set up a campaign on Donorbox
 2. Copy the embed code from the Dashboard screen
-3. Paste it into `donation_embed` in the `index.html` front matter
+3. Paste it into `donation_embed` in `_config.yml`
 
 ## Mailchimp
 
@@ -75,7 +74,7 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 1. Set up a campaign on Mailchimp
 2. Find the embed code for the sign up form
 3. Copy the `<form>`'s action url
-4. Paste it into `newsletter_action` in the `index.html` front matter
+4. Paste it into `newsletter_action` in `_config.yml`
 
 ### Company details
 

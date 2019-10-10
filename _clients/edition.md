@@ -8,10 +8,9 @@ image_path: /images/clients/edition.png
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
 Start documenting your product, application, service or website with this configurable theme.
 
-Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+Edition was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
@@ -19,7 +18,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 * Full text search
 * Pre-styled components
 * Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
 * Change log
 * RSS/Atom feed
 * SEO tags
@@ -32,9 +31,9 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Edition was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install
