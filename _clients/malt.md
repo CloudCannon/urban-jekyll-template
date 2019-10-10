@@ -8,16 +8,15 @@ image_path: /images/clients/malt.jpg
 Event marketing template for Jekyll. Browse through a [live demo](https://whispering-boat.cloudvent.net/).
 Increase the web presence of your event with this configurable theme.
 
-CloudCannon was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+CloudCannon was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
 * Pre-built page
 * Pre-styled components
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
 * SEO tags
 * Google Analytics
 * [EventBrite](https://www.eventbrite.com/)
@@ -33,9 +32,9 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Malt was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Malt was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install
