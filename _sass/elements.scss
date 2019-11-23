@@ -2,17 +2,21 @@ html {
 	background: $html-background-color;
 }
 
+
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Alata', sans-serif;
 }
 
 a {
-	color: $brand-color;
+	color: $secondary-brand-color;
 	text-decoration: none;
 }
 
@@ -26,19 +30,21 @@ img {
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 2.3rem;
 	margin: 0;
 }
 
 h2 {
-	font-weight: 300;
+    color: #d9b08c;
+	font-weight: 700;
 	font-size: 2.2rem;
 	margin: 0 0 30px 0;
 }
 
 h3 {
 	font-size: 1.8rem;
+    font-weight: 700;
 	margin: 0 0 20px 0;
 }
 
@@ -62,4 +68,13 @@ pre {
 	padding: 10px;
 	background: #eee;
 	border-radius: 2px;
+}
+
+label {
+	color: #D1E8E2;
+    font-weight: 700;
+}
+
+input, textarea {
+    background-color: #2c3531;
 }

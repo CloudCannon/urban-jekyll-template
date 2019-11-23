@@ -1,6 +1,6 @@
 ---
-name: Cause Template
-subtitle: Not for profit template for Jekyll
+name: My website
+subtitle: Enjoy my new portfolio
 external_url: https://github.com/CloudCannon/cause-jekyll-template
 image_path: /images/clients/cause.jpg
 ---

@@ -13,8 +13,13 @@
 	max-width: 1000px;
 }
 
+hr.line{
+    border: 0;
+    border-bottom: 5px dashed #05386B;
+}
+
 header {
-	color: #fff;
+	color: #D1E8E2;
 	padding: 20px 0;
 	position: absolute;
 	top: 0;
@@ -22,7 +27,7 @@ header {
 	width: 100%;
 
 	a {
-		color: #fff;
+		color: #D1E8E2;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -38,7 +43,7 @@ header {
 }
 
 .content {
-	background: #fff;
+	background: #D1E8E2;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -56,7 +61,7 @@ header {
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: #D1E8E2;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -74,7 +79,7 @@ section {
 	}
 
 	&.hero {
-		color: #ffffff;
+		color: #D1E8E2;
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
@@ -90,17 +95,17 @@ section {
 
 		p {
 			font-size: 1.8rem;
-			color: #fff;
+			color: #D1E8E2;
 		}
 
 		a:not(.button) {
-			color: #ffffff;
+			color: #D1E8E2;
 			font-style: italic;
 		}
 	}
 
 	&.alternate {
-		background: #eee;
+		background: #2C3531;
 	}
 }
 
@@ -153,6 +158,30 @@ section {
 .aligned-top {
 	align-items: flex-start;
 }
+
+
+.image-grid {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+	margin: 0 -20px;
+}
+
+	li {
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin: 20px;
+		border-radius: 5px;
+		text-align: left;
+		border-bottom: 1px solid $brand-color;
+		line-height: 0;
+    }
+
 
 .image-grid {
 	padding: 0;
