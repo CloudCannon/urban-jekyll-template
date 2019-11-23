@@ -10,7 +10,7 @@ backend:
     files:
       - label: "Navigation"
         name: "navigation"
-        file: "_date/navigation.yml"
+        file: "_data/navigation.yml"
         fields:
           - label: "Link"
             name: "links"
