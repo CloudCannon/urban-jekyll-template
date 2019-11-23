@@ -2,7 +2,13 @@ html {
 	background: $html-background-color;
 }
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+=======
+
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 
 html, body {
 	margin: 0;
@@ -10,7 +16,11 @@ html, body {
 }
 
 body {
+<<<<<<< HEAD
 	font-family: 'Space Mono', monospace;
+=======
+	font-family: 'Alata', sans-serif;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 }
 
 a {
@@ -34,7 +44,11 @@ h1 {
 }
 
 h2 {
+<<<<<<< HEAD
     color: #05386b;
+=======
+    color: #d9b08c;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	font-weight: 700;
 	font-size: 2.2rem;
 	margin: 0 0 30px 0;
@@ -44,6 +58,7 @@ h3 {
     font-weight: 700;
     color: #05386b;
 	font-size: 1.8rem;
+    font-weight: 700;
 	margin: 0 0 20px 0;
 }
 
@@ -69,13 +84,23 @@ pre {
 	border-radius: 2px;
 }
 
+<<<<<<< HEAD
 label{
     color:#05386b;
+=======
+label {
+	color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
     font-weight: 700;
 }
 
 input, textarea {
+<<<<<<< HEAD
     background-color: #edf5e1;
 }
 
 
+=======
+    background-color: #2c3531;
+}
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
