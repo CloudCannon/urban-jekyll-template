@@ -13,8 +13,13 @@
 	max-width: 1000px;
 }
 
+hr.line{
+    border:0;
+    border-bottom: 5px dashed #05386B;
+}
+
 header {
-	color: #fff;
+	color: #edf5e1;
 	padding: 20px 0;
 	position: absolute;
 	top: 0;
@@ -22,7 +27,7 @@ header {
 	width: 100%;
 
 	a {
-		color: #fff;
+		color: #edf5e1;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -38,7 +43,7 @@ header {
 }
 
 .content {
-	background: #fff;
+	background: #edf5e1;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -47,16 +52,16 @@ header {
 	height: auto;
 	display: block;
 	margin: 0 auto;
-	box-shadow: 0 1px 0 #ccc,0 1px 1px #eee;
+	box-shadow: 0 1px 0 #379683,0 1px 1px #eee;
 	border-radius: 2px;
 	padding: 20px 0 0;
-	background: url($screenshot-buttons) 4px 4px no-repeat #DDD;
+	background: url($screenshot-buttons) 4px 4px no-repeat #05386b;
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
 }
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: #379683;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -74,7 +79,7 @@ section {
 	}
 
 	&.hero {
-		color: #ffffff;
+		color: #edf5e1;
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
@@ -90,17 +95,17 @@ section {
 
 		p {
 			font-size: 1.8rem;
-			color: #fff;
+			color: #edf5e1;
 		}
 
 		a:not(.button) {
-			color: #ffffff;
+			color: #edf5e1;
 			font-style: italic;
 		}
 	}
 
 	&.alternate {
-		background: #eee;
+		background: #379683;
 	}
 }
 
@@ -112,19 +117,19 @@ section {
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
-	background: #fff;
+	border: 1px solid #5cdb95;
+	background: #05386B;
 	text-decoration: none !important;
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.3);
-		color: #fff;
+		background: #5cdb95;
+		color: #05386B;
 	}
 
 	&:active {
 		opacity: 1;
-		background: rgba(255, 255, 255, 0.1);
-		color: #fff;
+		background: #5cdb95;
+		color: #05386B;
 		transform: translateY(1px);
 	}
 }
@@ -152,6 +157,25 @@ section {
 
 .aligned-top {
 	align-items: flex-start;
+}
+
+.skills {
+    color:#edf5e1;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+
+	li {
+		padding: 0;
+        width: 100%;
+		position: relative;
+		margin: 20px;
+		text-align: left;
+		border-bottom: 1px solid $brand-color;
+		line-height: 1.2;
+    }
 }
 
 .image-grid {
@@ -221,7 +245,7 @@ section {
 
 	.position {
 		margin-top: 5px;
-		color: #fff;
+		color: #edf5e1;
 	}
 
 	.filler {
@@ -238,10 +262,10 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: #379683;
 
 	&,
 	p {
-		color: #fefefe;
+		color: #edf5e1;
 	}
 }

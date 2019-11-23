@@ -10,21 +10,6 @@ layout: page
 	</div>
 </section>
 
-
-{% if page.author_staff_member %}
-	<section class="diagonal patterned">
-		<div class="container">
-			<h2>Author</h2>
-			<ul class="image-grid">
-				{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
-				{% assign author = site.staff_members | where: "url", author_id | first %}
-
-				<li>{% include staff-member.html member=author %}</li>
-			</ul>
-		</div>
-	</section>
-{% endif %}
-
 <section class="diagonal alternate">
 	<div class="text-container">
 		<h2>Next post</h2>

@@ -7,11 +7,15 @@
 	}
 }
 
+body{
+color: #edf5e1;
+}
+
 .blog-post {
 	h3 {
 		margin: 0;
 		a {
-			color: #000;
+			color: #05386b;
 			text-decoration: none;
 			font-weight: normal;
 			font-size: 1.3em;
@@ -68,15 +72,15 @@
 	text-align: center;
 
 	a {
-		background: #eee;
+		background: #05386b;
 		padding: 3px 5px;
 		font-size: .8em;
 		border-radius: 5px;
-		color: #888;
+		color: #edf5e1;
 		transition: .2s ease-in-out;
 
 		&:hover {
-			color: #555;
+			color: #5cdb95;
 			text-decoration: none;
 		}
 	}

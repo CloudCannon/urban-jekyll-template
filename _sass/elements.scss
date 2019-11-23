@@ -2,17 +2,19 @@ html {
 	background: $html-background-color;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Space Mono', monospace;
 }
 
 a {
-	color: $brand-color;
+	color: $secondary-brand-color;
 	text-decoration: none;
 }
 
@@ -26,18 +28,21 @@ img {
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 2.3rem;
 	margin: 0;
 }
 
 h2 {
-	font-weight: 300;
+    color: #05386b;
+	font-weight: 700;
 	font-size: 2.2rem;
 	margin: 0 0 30px 0;
 }
 
 h3 {
+    font-weight: 700;
+    color: #05386b;
 	font-size: 1.8rem;
 	margin: 0 0 20px 0;
 }
@@ -63,3 +68,14 @@ pre {
 	background: #eee;
 	border-radius: 2px;
 }
+
+label{
+    color:#05386b;
+    font-weight: 700;
+}
+
+input, textarea {
+    background-color: #edf5e1;
+}
+
+
