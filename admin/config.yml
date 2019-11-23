@@ -1,0 +1,20 @@
+backend:
+ name: github
+ repo: mikhail-cct/urban-jekyll-template
+
+ media_folder: "images"
+
+ collections:
+  - name: "webstite-settings"
+    label: "Website Settings"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_date/navigation.yml"
+        fields:
+          - label: "Link"
+            name: "links"
+            widget: "list"
+            fields:
+             - {label: "Name", name="name", widget="string"}
+             - {label: "Link", name="link", widget:"string"}
