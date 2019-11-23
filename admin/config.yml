@@ -8,13 +8,6 @@ collections:
   - name: "website-settings"
     label: "Website settings"
     files:
-      - label: "Website settings"
-        name: "site"
-        file: "_data/company.yml"
-        fields:
-          - label: "Title"
-            name: "title"
-            width: "string"
       - label: "Navigation"
         name: "navigation"
         file: "_data/navigation.yml"
@@ -25,19 +18,3 @@ collections:
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Link", name: "link", widget: "string"}
-      - label: "Footer"
-        name: "footer"
-        file: "_data/footer.yml"
-        fields:
-          - name: "urls"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - label: "Links"
-                name: "links"
-                widget: "list"
-                fields:
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string"}
-                  - {label: "Social Icon", name: "social_icon", widget: "string"}
-                  - {label: "New Window", name: "new_window", widget: "boolean"}
