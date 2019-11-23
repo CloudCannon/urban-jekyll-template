@@ -7,13 +7,17 @@ footer {
 
 	&,
 	a {
-		color: #999;
+<<<<<<< HEAD
+		color: #5cdb95;
+=======
+		color: #FFCB9A;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	}
 
 	h2 {
 		font-size: 1.4em;
 		margin: 30px 0;
-		color: #ccc;
+		color: #edf5e1;
 	}
 
 	.footer-columns {
@@ -26,7 +30,11 @@ footer {
 		text-decoration: none;
 
 		&:hover {
-			color: #fff;
+<<<<<<< HEAD
+			color: #edf5e1;
+=======
+			color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 		}
 	}
 
@@ -53,7 +61,7 @@ footer {
 
 		a {
 			svg {
-				fill: #999;
+				fill: #edf5e1;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -67,7 +75,7 @@ footer {
 				text-decoration: none;
 
 				svg {
-					fill: #fff;
+					fill: #edf5e1;
 				}
 			}
 		}

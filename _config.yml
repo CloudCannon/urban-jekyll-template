@@ -1,4 +1,4 @@
-title: Urban Template
+title: Web Resume
 url: "https://teal-worm.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,13 +10,17 @@ description: Jekyll template with example content for a web agency.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
+<<<<<<< HEAD
+  name: Erika Volodko
+=======
+  name: Yo I'm Tom 
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
   email:
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Web Resume
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
