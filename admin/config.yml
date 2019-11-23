@@ -8,13 +8,27 @@ collections:
   - name: "website-settings"
     label: "Website settings"
     files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
+      - label: "Clients"
+        name: "clients"
+        folder: "_clients"
+        create: true
+        slug: "{{slug}}"
         fields:
-          - label: "Link"
-            name: "links"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Link", name: "link", widget: "string"}
+        - name: "name"
+          label: "Name"
+          widget: "string"
+        - name: "subtitle"
+          label: "Subtitle"
+          widget: "string"
+        - name: "external_url"
+          label: "External URL"
+          widget: "string"
+        - name: "image_path"
+          label: "Image Path"
+          widget: "string"
+        - name: "body"
+          label: "Body"
+          widget: markdown
+          fields:
+            - {label: "Name", name: "name", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
