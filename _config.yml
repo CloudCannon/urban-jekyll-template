@@ -10,7 +10,11 @@ description: Jekyll template with example content for a web agency.
 
 # Author details for the jekyll-seo-tag gem
 author:
+<<<<<<< HEAD
   name: Erika Volodko
+=======
+  name: Yo I'm Tom 
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
   email:
   twitter: # twitter username without the @ symbol
 

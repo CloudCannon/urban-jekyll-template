@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 name: My portfolio work 1
 subtitle: This is a website I created
+=======
+name: My website
+subtitle: Enjoy my new portfolio
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 external_url: https://github.com/CloudCannon/cause-jekyll-template
 image_path: /images/clients/cause.jpg
 ---

@@ -14,12 +14,20 @@
 }
 
 hr.line{
+<<<<<<< HEAD
     border:0;
+=======
+    border: 0;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
     border-bottom: 5px dashed #05386B;
 }
 
 header {
+<<<<<<< HEAD
 	color: #edf5e1;
+=======
+	color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	padding: 20px 0;
 	position: absolute;
 	top: 0;
@@ -27,7 +35,11 @@ header {
 	width: 100%;
 
 	a {
+<<<<<<< HEAD
 		color: #edf5e1;
+=======
+		color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -43,7 +55,11 @@ header {
 }
 
 .content {
+<<<<<<< HEAD
 	background: #edf5e1;
+=======
+	background: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -61,7 +77,11 @@ header {
 
 section {
 	padding: 150px 0;
+<<<<<<< HEAD
 	background: #379683;
+=======
+	background: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	margin-top: -2px;
 
 	&.diagonal {
@@ -79,7 +99,11 @@ section {
 	}
 
 	&.hero {
+<<<<<<< HEAD
 		color: #edf5e1;
+=======
+		color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
@@ -95,17 +119,29 @@ section {
 
 		p {
 			font-size: 1.8rem;
+<<<<<<< HEAD
 			color: #edf5e1;
 		}
 
 		a:not(.button) {
 			color: #edf5e1;
+=======
+			color: #D1E8E2;
+		}
+
+		a:not(.button) {
+			color: #D1E8E2;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 			font-style: italic;
 		}
 	}
 
 	&.alternate {
+<<<<<<< HEAD
 		background: #379683;
+=======
+		background: #2C3531;
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	}
 }
 
@@ -159,13 +195,19 @@ section {
 	align-items: flex-start;
 }
 
+<<<<<<< HEAD
 .skills {
     color:#edf5e1;
+=======
+
+.image-grid {
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 	padding: 0;
 	list-style: none;
 	display: flex;
 	flex-flow: wrap;
 	text-align: center;
+<<<<<<< HEAD
 
 	li {
 		padding: 0;
@@ -177,6 +219,24 @@ section {
 		line-height: 1.2;
     }
 }
+=======
+	margin: 0 -20px;
+}
+
+	li {
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin: 20px;
+		border-radius: 5px;
+		text-align: left;
+		border-bottom: 1px solid $brand-color;
+		line-height: 0;
+    }
+
+>>>>>>> 85cd1e8c6e4bffbd56f93aa7c2f694229ff16529
 
 .image-grid {
 	padding: 0;
