@@ -1,13 +1,20 @@
 backend:
  name: github
- repo: mikhail-cct/urban-jekyll-template
+ repo: mikhail-cct/urban-jekyll-template # Path to your GitHub repository
 
- media_folder: "images"
+media_folder: "images"
 
- collections:
-  - name: "webstite-settings"
-    label: "Website Settings"
+collections:
+  - name: "website-settings"
+    label: "Website settings"
     files:
+      - label: "Website settings"
+        name: "site"
+        file: "_data/company.yml"
+        fields:
+          - label: "Title"
+            name: "title"
+            width: "string"
       - label: "Navigation"
         name: "navigation"
         file: "_data/navigation.yml"
@@ -16,5 +23,21 @@ backend:
             name: "links"
             widget: "list"
             fields:
-             - {label: "Name", name: "name", widget: "string"}
-             - {label: "Link", name: "link", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+      - label: "Footer"
+        name: "footer"
+        file: "_data/footer.yml"
+        fields:
+          - name: "urls"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+                  - {label: "Social Icon", name: "social_icon", widget: "string"}
+                  - {label: "New Window", name: "new_window", widget: "boolean"}
